@@ -1,0 +1,35 @@
+.card {
+  display: flex;
+  padding: 30px;
+  grid-template-columns: repeat(auto-fill);
+  gap: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card1 {
+  padding: 20px;
+  width: 50%;
+  background-color: #f0f0f0;
+}
+
+.card2 {
+  padding: 20px;
+  width: 50%;
+  background-color: #f0f0f0;
+}
+
+.card2 img {
+  max-width: 90%;
+  height: auto;
+}
+
+.card3 {
+  padding: 20px;
+  width: 50%;
+  height: 90%;
+  background-color: #f0f0f0;
+  position: relative;
+  top: 4rem;
+}

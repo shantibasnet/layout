@@ -1,0 +1,20 @@
+.menu {
+  background-color: gray;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu li {
+  margin: 0 10px;
+}
+
+.menu ul {
+  color: bisque;
+}
+
+.menu a:hover {
+  color: orange; /* Change color on hover */
+}
